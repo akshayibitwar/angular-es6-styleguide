@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Pipe, PipeTransform } from '@angular/core';
+import { interval } from 'rxjs';
 
 @Component({
   selector: 'app-comp1',
@@ -10,6 +11,10 @@ export class Comp1Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+    
   }
 
-}
+  }
+
+  
